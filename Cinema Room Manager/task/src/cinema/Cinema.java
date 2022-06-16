@@ -37,7 +37,7 @@ public class Cinema {
 
         // While not exit ask for command to perform.
         while (command != 0) {
-            System.out.printf("%s \n %s \n %s \n %s \n", show, buy, stats, exit);
+            System.out.printf("%s\n%s\n%s\n%s\n", show, buy, stats, exit);
             command = readIp.nextInt();
 
             switch (command) {
